@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/smartavvy-tech/static/css/main.1355c7f4.chunk.css",
+    "main.js": "/smartavvy-tech/static/js/main.e8c86668.chunk.js",
+    "main.js.map": "/smartavvy-tech/static/js/main.e8c86668.chunk.js.map",
+    "runtime-main.js": "/smartavvy-tech/static/js/runtime-main.64fd4f19.js",
+    "runtime-main.js.map": "/smartavvy-tech/static/js/runtime-main.64fd4f19.js.map",
+    "static/css/2.f4955334.chunk.css": "/smartavvy-tech/static/css/2.f4955334.chunk.css",
+    "static/js/2.db1eb3fc.chunk.js": "/smartavvy-tech/static/js/2.db1eb3fc.chunk.js",
+    "static/js/2.db1eb3fc.chunk.js.map": "/smartavvy-tech/static/js/2.db1eb3fc.chunk.js.map",
+    "index.html": "/smartavvy-tech/index.html",
+    "precache-manifest.932ed609983b541c9bbcc255786398b3.js": "/smartavvy-tech/precache-manifest.932ed609983b541c9bbcc255786398b3.js",
+    "service-worker.js": "/smartavvy-tech/service-worker.js",
+    "static/css/2.f4955334.chunk.css.map": "/smartavvy-tech/static/css/2.f4955334.chunk.css.map",
+    "static/css/main.1355c7f4.chunk.css.map": "/smartavvy-tech/static/css/main.1355c7f4.chunk.css.map",
+    "static/js/2.db1eb3fc.chunk.js.LICENSE.txt": "/smartavvy-tech/static/js/2.db1eb3fc.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/smartavvy-tech/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/smartavvy-tech/static/media/fa-solid-900.ec763292.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64fd4f19.js",
+    "static/css/2.f4955334.chunk.css",
+    "static/js/2.db1eb3fc.chunk.js",
+    "static/css/main.1355c7f4.chunk.css",
+    "static/js/main.e8c86668.chunk.js"
+  ]
+}
