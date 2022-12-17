@@ -1,0 +1,10 @@
+.testimonial-carousel {
+    transition: all 0.5s ease-in-out;
+  }
+
+.testimonial-bullet {
+    padding-top: 0 !important;
+    padding-bottom: 0.25rem !important;
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+}
