@@ -23,44 +23,53 @@ export default class Home extends React.Component {
           <Carousel homePageData={homePageData} showControlButtons={false} />
         </MDBContainer>
         <MDBContainer>
+
+        <section className="text-center pb-5 my-5">
+            <MDBAnimation reveal type="zoomIn" duration="1.5s">
+              <h4 className="my-5">
+              SmartAvvy offers a comprehensive range of consulting services from custom software development to IT staffing and training.
+        </h4>
+            </MDBAnimation>
+           </section>
+
           <section className="text-center pb-5 pt-2 my-5">
             <MDBAnimation reveal type="zoomIn" duration="1.5s">
               <h1 className="font-weight-bold my-5">
-                Why learn with us?
+                Our Standards
         </h1>
             </MDBAnimation>
             <MDBRow>
               <MDBCol md="4">
                 <MDBAnimation reveal type="flipInX" duration="2s">
                   <MDBIcon icon="chalkboard-teacher" size="4x" className="red-text" />
-                  <h4 className="font-weight-bold my-4">Best Teachers</h4>
+                  <h4 className="font-weight-bold my-4">High Quality Processes</h4>
                   <p className="mb-md-0 mb-5 font-size-1-25rem">
-                    From top tier colleges with 10+ years of experience.
+                  We have developed repeatable, effective software development processes that ensure high quality of service and successful delivery to our global clients. All phases of work in our product development cycle are well documented, well reviewed to ensure we are effective and efficient in every project.
             </p>
                 </MDBAnimation>
               </MDBCol>
               <MDBCol md="4">
                 <MDBAnimation reveal type="flipInX" duration="2s">
                   <MDBIcon icon="graduation-cap" size="4x" className="cyan-text" />
-                  <h4 className="font-weight-bold my-4">Adaptive Learning</h4>
+                  <h4 className="font-weight-bold my-4">Cost-effective Solutions</h4>
                   <p className="mb-md-0 mb-5 font-size-1-25rem">
-                    Delivering customized learning based on the student's learning pace.
+                  Our global deliver model allows us to offer each client a custom-fit solution combining our onshore and offshore resources to give our clients the highest value solutions available. With three offices in the US and three offices in India we are well suited to address our client’s needs in a cost-effective manner.
             </p>
                 </MDBAnimation>
               </MDBCol>
               <MDBCol md="4">
                 <MDBAnimation reveal type="flipInX" duration="2s">
                   <MDBIcon far icon="comments" size="4x" className="orange-text" />
-                  <h4 className="font-weight-bold my-4">Live & Interactive</h4>
+                  <h4 className="font-weight-bold my-4">Confidentiality</h4>
                   <p className="mb-md-0 mb-5 font-size-1-25rem">
-                    2-way Interaction between student & teacher.
+                  We guarantee a high degree of confidentiality and security in every project. All clients’ information remains strictly confidential. SmartAvvy will never sell or disclose any client information under any unauthorized circumstances.
             </p>
                 </MDBAnimation>
               </MDBCol>
             </MDBRow>
           </section>
 
-          <section className="text-center pb-5 my-5">
+          <section style={{display: "none"}} className="text-center pb-5 my-5">
             <MDBAnimation reveal type="zoomIn" duration="1.5s">
               <h1 className="font-weight-bold my-5">
                 Our amazing team
@@ -133,7 +142,7 @@ export default class Home extends React.Component {
             </MDBRow>
           </section>
         </MDBContainer>
-        <MDBContainer fluid className="pl-0 pr-0">
+        <MDBContainer style={{display: "none"}} fluid className="pl-0 pr-0">
           <Testimonials testinomialsData={testinomialsData} showControlButtons={false} showBullets={true} />
         </MDBContainer>
       </div>

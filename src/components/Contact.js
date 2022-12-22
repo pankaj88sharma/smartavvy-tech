@@ -20,7 +20,7 @@ class Contact extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "Excellence Classes | Contact";
+    document.title = "SmartAvvy Tech | Contact";
   }
 
   shouldComponentUpdate(nextProps, nextState) {
@@ -127,42 +127,6 @@ class Contact extends React.Component {
               <MDBBtn className="btn btn-sm" color="primary" onClick={this.toggle(2)}>Close</MDBBtn>
             </MDBModalFooter>
           </MDBModal>
-          <MDBRow className="text-center my-4">
-            <MDBCol lg="4">
-              <MDBAnimation reveal type="slideInLeft" delay="" duration="2s">
-                <a href="https://goo.gl/maps/xUfdfCwLM3jYPBFT7" className="red-text" target="_blank" rel="noopener noreferrer">
-                  <MDBIcon size="3x" icon="map-marker-alt" />
-                </a>
-                <p className="font-weight-500 mb-0">B-2/384, Yamuna Vihar</p>
-                <p className="mb-4 font-weight-500">New Delhi, India</p>
-              </MDBAnimation>
-            </MDBCol>
-            <MDBCol lg="4">
-              <MDBAnimation reveal type="slideInLeft" delay="" duration="2s">
-                <MDBDropdown>
-                  <MDBDropdownToggle size="lg" className="cyan-text z-depth-0 p-0" color="">
-                    <MDBIcon size="3x" icon="phone" />
-                  </MDBDropdownToggle>
-                  <MDBDropdownMenu className="unique-color-dark p-0">
-                    <MDBDropdownItem href="tel:+918130038068" className="text-white">
-                      < MDBIcon className="mr-2" icon="mobile-alt" />+ 91 8130 038 068
-                  </MDBDropdownItem>
-                    <MDBDropdownItem href="tel:+919650502389" className="text-white"><MDBIcon className="mr-2" icon="mobile-alt" />+ 91 9650 502 389</MDBDropdownItem>
-                  </MDBDropdownMenu>
-                </MDBDropdown>
-                <p className="font-weight-500 mb-0">+ 91 8130 038 068</p>
-                <p className="mb-4 font-weight-500">+ 91 9650 502 389</p>
-              </MDBAnimation>
-            </MDBCol>
-            <MDBCol lg="4">
-              <MDBAnimation reveal type="slideInLeft" delay="" duration="2s">
-                <a href="mailto:excellence.classes.edu@gmail.com" className="orange-text" target="_blank" rel="noopener noreferrer">
-                  <MDBIcon size="3x" icon="envelope" />
-                </a>
-                <p className="font-weight-500">excellence.classes.edu@gmail.com</p>
-              </MDBAnimation>
-            </MDBCol>
-          </MDBRow>
           <MDBRow>
             <MDBCol lg="4" className="mb-4">
               <MDBAnimation reveal type="slideInLeft" delay="" duration="2s">
@@ -189,7 +153,7 @@ class Contact extends React.Component {
                   className="rounded z-depth-1-half map-container h-500px"
                 >
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13998.51240427069!2d77.26068652830016!3d28.70076948971831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfc1388864abb%3A0xd076f7ba2ac1fdca!2sB2%20Block%2C%20Block%20B%2C%20Yamuna%20Vihar%2C%20Shahdara%2C%20New%20Delhi%2C%20Delhi%20110053!5e0!3m2!1sen!2sin!4v1589700474213!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.91291107331!2d-79.84829049999999!3d43.504152299999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6f43a6d783c3%3A0xe29d15523d79ff62!2s920%20Hasselfeldt%20Heights%2C%20Milton%2C%20ON%20L9T%200M5!5e0!3m2!1sen!2sca!4v1671716382650!5m2!1sen!2sca"
                     title="Google Maps"
                     width="100%"
                     height="100%"

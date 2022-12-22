@@ -31,54 +31,32 @@ export default class About extends React.Component {
           <MDBRow>
             <MDBCol className="mt-5">
               <MDBAnimation reveal type="slideInUp" delay="" duration="2s">
-                <p className="h1-responsive font-weight-500">Imagining Teaching and Learning</p>
+                <p className="h4-responsive font-weight-500">Who We Are</p>
               </MDBAnimation>
               <MDBAnimation reveal type="slideInUp" delay="" duration="2s">
                 <p className="font-size-1-1rem">
-                  Learning and teaching are two recurrent processes which have been followed by human from its inception.
-                  Modes, models and styles evolved over centuries but the quest of human to achieve knowledge never exhausted.
-                  The last century experienced a revolution in the Indian education system, predominantly in the urban sphere where coaching classes laid its footprint.
+                SmartAvvy is a software solutions company providing project development and staff augmentation services to companies in various industries.
             </p>
               </MDBAnimation>
+              <br/>
+              <br/>
               <MDBAnimation reveal type="slideInUp" delay="" duration="2s">
-                <p className="font-size-1-1rem">
-                  <strong>Excellence Classes</strong> too is an inspiration of this evolved education system catering to the aspiration
-            of thousands of young buds to excel themselves in their academics and groom them to be a professional of next generation.
-            </p>
+                <p className="h4-responsive font-weight-500">What We Do</p>
               </MDBAnimation>
               <MDBAnimation reveal type="slideInUp" delay="" duration="2s">
                 <p className="font-size-1-1rem">
-                  <strong>Excellence Classes</strong> derives its inspiration from the legends of academics which speaks about understanding the subject ant its applications for the betterment of their life,
-              enrichment of society and upliftment of their soul.
-            </p>
+                SmartAvvy helps organizations operate more efficiently through higher productivity and profitability by providing specialized project implementation.            </p>
               </MDBAnimation>
-              <MDBAnimation reveal type="slideInUp" delay="" duration="2s">
-                <p className="font-size-1-1rem">
-                  We always say <strong>"SMILE - You are at Excellence"</strong>
-                </p>
-              </MDBAnimation>
+              <br/>
+              <br/>
 
-              <MDBAnimation reveal type="slideInUp" delay="" duration="2s" className="mt-4">
-                <p className="h1-responsive font-weight-500">Our Vision</p>
+              <MDBAnimation reveal type="slideInUp" delay="" duration="2s">
+                <p className="h4-responsive font-weight-500">What You Get</p>
               </MDBAnimation>
               <MDBAnimation reveal type="slideInUp" delay="" duration="2s">
                 <p className="font-size-1-1rem">
-                  Teaching process has stayed the same for decades. The traditional teaching and offline education system are plagued with multiple inefficiencies.
-            </p>
+                When clients engage third parties it is often a guessing game on what they are getting. With SmartWorks, what you see is what you get.                </p>
               </MDBAnimation>
-              <MDBAnimation reveal type="slideInUp" delay="" duration="2s">
-                <p className="font-size-1-1rem">
-                  Our vision is to reimagine and evolve the way teaching and learning have been happening for decades.
-                  By combining quality teachers, engaging content and superior technology we are able
-                  to create a superior learning experience for students and aid in their outcome improvement.
-            </p>
-              </MDBAnimation>
-              <MDBAnimation reveal type="slideInUp" delay="" duration="2s">
-                <p className="font-size-1-1rem">
-                  Teaching and learning are set to transform at a rapid pace and our mission is to accelerate these transformations.
-            </p>
-              </MDBAnimation>
-
             </MDBCol>
           </MDBRow>
         </MDBContainer>
