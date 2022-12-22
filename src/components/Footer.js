@@ -23,27 +23,27 @@ export default class FooterPage extends React.PureComponent {
                 <div className="text-center">
                   <ul className="list-unstyled list-inline">
                     <li className="list-inline-item">
-                      <a className="btn-floating btn-lg" href="https://www.facebook.com/excellenceclasses100" target="_blank" rel="noopener noreferrer">
+                      <a style={{pointerEvents: "none"}} className="btn-floating btn-lg" href="" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-facebook-f"> </i>
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a className="btn-floating btn-lg" href="https://twitter.com/ExcellenceClas3" target="_blank" rel="noopener noreferrer">
+                      <a style={{pointerEvents: "none"}} className="btn-floating btn-lg" href="" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-twitter"> </i>
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a className="btn-floating btn-lg" href="http://www.linkedin.com/in/excellenceclasses" target="_blank" rel="noopener noreferrer">
+                      <a style={{pointerEvents: "none"}} className="btn-floating btn-lg" href="" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-linkedin-in"> </i>
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a className="btn-floating btn-lg" href="https://www.instagram.com/excellence_classes_yamunavihar/" target="_blank" rel="noopener noreferrer">
+                      <a style={{pointerEvents: "none"}} className="btn-floating btn-lg" href="" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-instagram"> </i>
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a className="btn-floating btn-lg" href="https://wa.me/919899393300" target="_blank" rel="noopener noreferrer">
+                      <a style={{pointerEvents: "none"}} className="btn-floating btn-lg" href="" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-whatsapp"> </i>
                       </a>
                     </li>
@@ -54,7 +54,7 @@ export default class FooterPage extends React.PureComponent {
           </MDBContainer>
           <div className="footer-copyright text-center py-3">
             <MDBContainer fluid>
-              &copy; {new Date().getFullYear()} Copyright: <a href="/"> <strong>ExcellenceClasses.co.in</strong> </a>
+              &copy; {new Date().getFullYear()} Copyright: <a href="/"> <strong>SmartAvvy.com</strong> </a>
             </MDBContainer>
           </div>
         </MDBFooter>

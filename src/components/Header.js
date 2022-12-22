@@ -42,7 +42,7 @@ class Header extends React.Component {
         <MDBContainer fluid>
           <MDBAnimation type="fadeIn" duration="1s">
             <MDBNavbarBrand className={currentPath === '/' ? 'pointer-events-none' : ''} onClick={currentPath === '/' ? null : this.handleLinkClick} href="/">
-              <strong><span className="border rounded primary-color-dark pl-1 pr-1 pt-1 brand-logo">Excellence</span> <span className="font-size-12px"> CLASSES</span></strong>
+              <strong><span className="border rounded primary-color-dark pl-1 pr-1 pt-1 brand-logo">SmartAvvy</span> <span className="font-size-12px"> TECH</span></strong>
             </MDBNavbarBrand>
           </MDBAnimation>
           <MDBAnimation type="fadeIn" duration="1s">

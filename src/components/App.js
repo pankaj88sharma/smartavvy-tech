@@ -95,10 +95,7 @@ class App extends React.Component {
           <Switch>
             <Route path="/" render={(props) => <Home showAvatar={true} {...props} />} exact />
             <Route path="/about" component={About} />
-            <Route path="/courses" render={(props) => <Courses coursesData={coursesData} {...props} />} />
-            <Route path="/faculty" render={(props) => <Faculty facultyData={facultyData}  {...props} />} />
-            <Route path="/gallery" render={(props) => <Gallery photosData={photosData} {...props} handleScreenChange={this.handleScreenChange} />} />
-            <Route path="/resources" render={(props) => <Resources resourcesData={resourcesData} {...props} />} />
+            <Route path="/services" render={(props) => <Courses coursesData={coursesData} {...props} />} />
             <Route path="/contact" component={Contact} />
           </Switch>
         </main>

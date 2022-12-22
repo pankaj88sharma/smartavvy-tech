@@ -9,7 +9,7 @@ export default class Courses extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "Excellence Classes | Courses";
+    document.title = "SmartAvvy Tech | Services";
   }
 
 
@@ -39,7 +39,7 @@ export default class Courses extends React.Component {
               <MDBMask overlay="black-strong" className="d-flex justify-content-center text-white text-center align-items-end">
                 <MDBAnimation type="zoomIn" duration="1s" delay="0.3s">
                   <div className="page-bg">
-                    <p>Courses</p>
+                    <p>Services</p>
                   </div>
                 </MDBAnimation>
               </MDBMask>

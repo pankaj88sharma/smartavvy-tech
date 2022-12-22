@@ -8,10 +8,10 @@ export const menuLinksData = [
     path: '/about'
   },
   {
-    display: 'Courses',
-    path: '/courses'
+    display: 'Services',
+    path: '/services'
   },
-  {
+  /*{
     display: 'Faculty',
     path: '/faculty'
   },
@@ -22,9 +22,9 @@ export const menuLinksData = [
   {
     display: 'Resources',
     path: '/resources'
-  },
+  },*/
   {
     display: 'Contact',
     path: '/contact'
-  },
+  }
 ]

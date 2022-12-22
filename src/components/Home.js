@@ -13,7 +13,7 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "Excellence Classes | Home";
+    document.title = "SmartAvvy Tech | Home";
   }
 
   render() {

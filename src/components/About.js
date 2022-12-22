@@ -8,7 +8,7 @@ export default class About extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "Excellence Classes | About";
+    document.title = "SmartAvvy Tech | About";
   }
 
   render() {
