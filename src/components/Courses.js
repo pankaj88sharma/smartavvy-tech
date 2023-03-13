@@ -9,7 +9,7 @@ export default class Courses extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "SmartAvvy Tech | Services";
+    document.title = "VentureSoft | Services";
   }
 
 

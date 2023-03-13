@@ -13,7 +13,7 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "SmartAvvy Tech | Home";
+    document.title = "VentureSoft | Home";
   }
 
   render() {
@@ -27,7 +27,7 @@ export default class Home extends React.Component {
         <section className="text-center pb-5 my-5">
             <MDBAnimation reveal type="zoomIn" duration="1.5s">
               <h4 className="my-5">
-              SmartAvvy offers a comprehensive range of consulting services from custom software development to IT staffing and training.
+              VentureSoft offers a comprehensive range of consulting services from custom software development to IT staffing and training.
         </h4>
             </MDBAnimation>
            </section>
@@ -62,7 +62,7 @@ export default class Home extends React.Component {
                   <MDBIcon far icon="comments" size="4x" className="orange-text" />
                   <h4 className="font-weight-bold my-4">Confidentiality</h4>
                   <p className="mb-md-0 mb-5 font-size-1-25rem">
-                  We guarantee a high degree of confidentiality and security in every project. All clients’ information remains strictly confidential. SmartAvvy will never sell or disclose any client information under any unauthorized circumstances.
+                  We guarantee a high degree of confidentiality and security in every project. All clients’ information remains strictly confidential. VentureSoft will never sell or disclose any client information under any unauthorized circumstances.
             </p>
                 </MDBAnimation>
               </MDBCol>

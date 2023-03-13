@@ -8,7 +8,7 @@ export default class About extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "SmartAvvy Tech | About";
+    document.title = "VentureSoft | About";
   }
 
   render() {
@@ -35,7 +35,7 @@ export default class About extends React.Component {
               </MDBAnimation>
               <MDBAnimation reveal type="slideInUp" delay="" duration="2s">
                 <p className="font-size-1-1rem">
-                SmartAvvy is a software solutions company providing project development and staff augmentation services to companies in various industries.
+                VentureSoft is a software solutions company providing project development and staff augmentation services to companies in various industries.
             </p>
               </MDBAnimation>
               <br/>
@@ -45,7 +45,7 @@ export default class About extends React.Component {
               </MDBAnimation>
               <MDBAnimation reveal type="slideInUp" delay="" duration="2s">
                 <p className="font-size-1-1rem">
-                SmartAvvy helps organizations operate more efficiently through higher productivity and profitability by providing specialized project implementation.            </p>
+                VentureSoft helps organizations operate more efficiently through higher productivity and profitability by providing specialized project implementation.            </p>
               </MDBAnimation>
               <br/>
               <br/>
@@ -55,7 +55,7 @@ export default class About extends React.Component {
               </MDBAnimation>
               <MDBAnimation reveal type="slideInUp" delay="" duration="2s">
                 <p className="font-size-1-1rem">
-                When clients engage third parties it is often a guessing game on what they are getting. With SmartWorks, what you see is what you get.                </p>
+                When clients engage third parties it is often a guessing game on what they are getting. With VentureSoft, what you see is what you get.                </p>
               </MDBAnimation>
             </MDBCol>
           </MDBRow>
