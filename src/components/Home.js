@@ -13,7 +13,7 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "VentureSoft | Home";
+    document.title = "VentureSoft Technologies | Home";
   }
 
   render() {
@@ -27,7 +27,7 @@ export default class Home extends React.Component {
         <section className="text-center pb-5 my-5">
             <MDBAnimation reveal type="zoomIn" duration="1.5s">
               <h4 className="my-5">
-              VentureSoft offers a comprehensive range of consulting services from custom software development to IT staffing and training.
+              VentureSoft Technologies offers a comprehensive range of consulting services from custom software development to IT staffing and training.
         </h4>
             </MDBAnimation>
            </section>

@@ -9,7 +9,7 @@ export default class Courses extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "VentureSoft | Services";
+    document.title = "VentureSoft Technologies | Services";
   }
 
 

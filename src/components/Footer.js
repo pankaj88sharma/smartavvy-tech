@@ -54,7 +54,7 @@ export default class FooterPage extends React.PureComponent {
           </MDBContainer>
           <div className="footer-copyright text-center py-3">
             <MDBContainer fluid>
-              &copy; {new Date().getFullYear()} Copyright: <a href="/"> <strong>VentureSoft.ca</strong> </a>
+              &copy; {new Date().getFullYear()} Copyright: <a href="/"> <strong>VentureSoftTechnologies.com</strong> </a>
             </MDBContainer>
           </div>
         </MDBFooter>

@@ -20,7 +20,7 @@ class Contact extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "VentureSoft | Contact";
+    document.title = "VentureSoft Technologies | Contact";
   }
 
   shouldComponentUpdate(nextProps, nextState) {
