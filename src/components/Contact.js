@@ -128,7 +128,7 @@ class Contact extends React.Component {
             </MDBModalFooter>
           </MDBModal>
           <MDBRow>
-            <MDBCol lg="4" className="mb-4">
+            <MDBCol lg="6" className="mb-4">
               <MDBAnimation reveal type="slideInLeft" delay="" duration="2s">
                 <form className="p-4 rounded z-depth-1 h-500px" onSubmit={this.handleSubmit} >
                   <div className="grey-text">
@@ -146,22 +146,19 @@ class Contact extends React.Component {
                 </form>
               </MDBAnimation>
             </MDBCol>
-            <MDBCol lg="8">
-              <MDBAnimation reveal type="zoomIn" delay="" duration="2s">
-                <div
-                  id="map-container"
-                  className="rounded z-depth-1-half map-container h-500px"
-                >
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.91291107331!2d-79.84829049999999!3d43.504152299999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6f43a6d783c3%3A0xe29d15523d79ff62!2s920%20Hasselfeldt%20Heights%2C%20Milton%2C%20ON%20L9T%200M5!5e0!3m2!1sen!2sca!4v1671716382650!5m2!1sen!2sca"
-                    title="Google Maps"
-                    width="100%"
-                    height="100%"
-                    frameBorder="0"
-                    className="border-0"
-                  />
-                </div>
-                <br />
+            <MDBCol lg="6">
+              <MDBAnimation reveal type="slideInLeft" delay="" duration="2s">
+                <MDBDropdown>
+                  <MDBDropdownToggle size="lg" className="cyan-text z-depth-0 p-0" color="">
+                    <MDBIcon size="3x" icon="phone" />
+                  </MDBDropdownToggle>
+                  <MDBDropdownMenu className="unique-color-dark p-0">
+                    <MDBDropdownItem href="tel:+918130038068" className="text-white">
+                      < MDBIcon className="mr-2" icon="mobile-alt" />+1 289-489-3546
+                  </MDBDropdownItem>
+                  </MDBDropdownMenu>
+                </MDBDropdown>
+                <p className="font-weight-500 mb-0">+1 289-489-3546</p>
               </MDBAnimation>
             </MDBCol>
           </MDBRow>

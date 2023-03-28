@@ -18,7 +18,7 @@ export default class FooterPage extends React.PureComponent {
       <MDBAnimation key={this.getId()} reveal type="fadeIn" delay="" duration="0.5s">
         <MDBFooter color="unique-color-dark" className="font-small pt-4 mt-4">
           <MDBContainer fluid className="text-center">
-            <MDBRow>
+            <MDBRow style={{display: "none"}}>
               <MDBCol size="12">
                 <div className="text-center">
                   <ul className="list-unstyled list-inline">
