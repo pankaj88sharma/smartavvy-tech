@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Header.css';
+import '../logo/logo.png';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBHamburgerToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBAnimation } from 'mdbreact';
 
 class Header extends React.Component {
@@ -11,6 +12,7 @@ class Header extends React.Component {
     this.hamburgerCheckbox = null;
     this.toggleCollapse = this.toggleCollapse.bind(this);
     this.handleLinkClick = this.handleLinkClick.bind(this);
+    this.logo = require('../logo/logo.png');
   }
 
   componentDidMount() {
@@ -42,7 +44,7 @@ class Header extends React.Component {
         <MDBContainer fluid>
           <MDBAnimation type="fadeIn" duration="1s">
             <MDBNavbarBrand className={currentPath === '/' ? 'pointer-events-none' : ''} onClick={currentPath === '/' ? null : this.handleLinkClick} href="/">
-              <strong><span className="border rounded primary-color-dark pl-1 pr-1 pt-1 brand-logo">VentureSoft</span> <span className="font-size-12px"> TECHNOLOGIES</span></strong>
+            <img alt='logo' style={{ width: 200, height: 70 }} src={String(this.logo)} />
             </MDBNavbarBrand>
           </MDBAnimation>
           <MDBAnimation type="fadeIn" duration="1s">

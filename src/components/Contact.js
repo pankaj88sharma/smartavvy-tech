@@ -148,17 +148,13 @@ class Contact extends React.Component {
             </MDBCol>
             <MDBCol lg="6">
               <MDBAnimation reveal type="slideInLeft" delay="" duration="2s">
-                <MDBDropdown>
-                  <MDBDropdownToggle size="lg" className="cyan-text z-depth-0 p-0" color="">
-                    <MDBIcon size="3x" icon="phone" />
-                  </MDBDropdownToggle>
-                  <MDBDropdownMenu className="unique-color-dark p-0">
-                    <MDBDropdownItem href="tel:+918130038068" className="text-white">
-                      < MDBIcon className="mr-2" icon="mobile-alt" />+1 289-489-3546
-                  </MDBDropdownItem>
-                  </MDBDropdownMenu>
-                </MDBDropdown>
-                <p className="font-weight-500 mb-0">+1 289-489-3546</p>
+                <div className="text-right">
+                  <p style={{fontWeight: 'bold', fontSize: 'large'}}>Venturesoft Technologies Inc. <br/>
+                  info@venturesofttechnologies.com <br/>
+                  12 Lightwood PI, Brampton, ON L6S 5W1 <br/>
+                  www.venturesofttechnologies.com
+                  </p>
+                </div>
               </MDBAnimation>
             </MDBCol>
           </MDBRow>
