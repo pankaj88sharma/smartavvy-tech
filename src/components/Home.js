@@ -25,7 +25,7 @@ export default class Home extends React.Component {
         <MDBContainer>
 
         <section className="text-center pb-5 my-5">
-            <MDBAnimation reveal type="zoomIn" duration="1.5s">
+            <MDBAnimation reveal type="" duration="1.5s">
               <h4 className="my-5">
               VentureSoft Technologies offers a comprehensive range of consulting services from custom software development to IT staffing and training.
         </h4>
@@ -33,14 +33,14 @@ export default class Home extends React.Component {
            </section>
 
           <section className="text-center pb-5 pt-2 my-5">
-            <MDBAnimation reveal type="zoomIn" duration="1.5s">
+            <MDBAnimation reveal type="" duration="1.5s">
               <h1 className="font-weight-bold my-5">
                 Our Standards
         </h1>
             </MDBAnimation>
             <MDBRow>
               <MDBCol md="4">
-                <MDBAnimation reveal type="flipInX" duration="2s">
+                <MDBAnimation reveal type="" duration="2s">
                   <MDBIcon icon="chalkboard-teacher" size="4x" className="red-text" />
                   <h4 className="font-weight-bold my-4">High Quality Processes</h4>
                   <p className="mb-md-0 mb-5 font-size-1-25rem">
@@ -49,7 +49,7 @@ export default class Home extends React.Component {
                 </MDBAnimation>
               </MDBCol>
               <MDBCol md="4">
-                <MDBAnimation reveal type="flipInX" duration="2s">
+                <MDBAnimation reveal type="" duration="2s">
                   <MDBIcon icon="graduation-cap" size="4x" className="cyan-text" />
                   <h4 className="font-weight-bold my-4">Cost-effective Solutions</h4>
                   <p className="mb-md-0 mb-5 font-size-1-25rem">
@@ -58,7 +58,7 @@ export default class Home extends React.Component {
                 </MDBAnimation>
               </MDBCol>
               <MDBCol md="4">
-                <MDBAnimation reveal type="flipInX" duration="2s">
+                <MDBAnimation reveal type="" duration="2s">
                   <MDBIcon far icon="comments" size="4x" className="orange-text" />
                   <h4 className="font-weight-bold my-4">Confidentiality</h4>
                   <p className="mb-md-0 mb-5 font-size-1-25rem">
@@ -70,14 +70,14 @@ export default class Home extends React.Component {
           </section>
 
           <section style={{display: "none"}} className="text-center pb-5 my-5">
-            <MDBAnimation reveal type="zoomIn" duration="1.5s">
+            <MDBAnimation reveal type="" duration="1.5s">
               <h1 className="font-weight-bold my-5">
                 Our amazing team
         </h1>
             </MDBAnimation>
             <MDBRow>
               <MDBCol md="4">
-                <MDBAnimation reveal type="flipInX" duration="2s">
+                <MDBAnimation reveal type="" duration="2s">
                   <div>
                     {this.props.showAvatar && <img
                       src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
@@ -98,7 +98,7 @@ export default class Home extends React.Component {
                 </MDBAnimation>
               </MDBCol>
               <MDBCol md="4">
-                <MDBAnimation reveal type="flipInX" duration="2s">
+                <MDBAnimation reveal type="" duration="2s">
                   <div>
                     {this.props.showAvatar && <img
                       src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
@@ -119,7 +119,7 @@ export default class Home extends React.Component {
                 </MDBAnimation>
               </MDBCol>
               <MDBCol md="4">
-                <MDBAnimation reveal type="flipInX" duration="2s">
+                <MDBAnimation reveal type="" duration="2s">
                   <div>
                     {this.props.showAvatar && <img
                       src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg"

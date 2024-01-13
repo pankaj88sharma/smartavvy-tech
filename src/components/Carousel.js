@@ -110,14 +110,14 @@ export default class Carousel extends React.Component {
             <MDBCol size="12">
               <div className="d-flex flex-row justify-content-center">
                 <div className="pr-1">
-                  <MDBAnimation reveal type="fadeIn" duration="1s">
+                  <MDBAnimation reveal type="" duration="1s">
                     <MDBBtn className="pl-4 pr-4 light-blue darken-4 border border-radius-50" onClick={this.onPrevClick}>
                       <MDBIcon size="2x" icon="angle-left" />
                     </MDBBtn>
                   </MDBAnimation>
                 </div>
                 <div className="pl-1">
-                  <MDBAnimation reveal type="fadeIn" duration="2s">
+                  <MDBAnimation reveal type="" duration="2s">
                     <MDBBtn className="pl-4 pr-4 light-blue darken-4 border-radius-50" onClick={this.onNextClick} color="primary">
                       <MDBIcon size="2x" icon="angle-right" />
                     </MDBBtn>

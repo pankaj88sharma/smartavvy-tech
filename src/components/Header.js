@@ -32,23 +32,23 @@ class Header extends React.Component {
   render() {
     const currentPath = window.location.pathname;
     const menuItems = this.props.menuLinksData.map((menu, index) =>
-      <MDBAnimation delay="0.25s" key={index} type={this.hamburgerCheckbox && this.hamburgerCheckbox.checked ? 'zoomIn' : 'fadeIn'} duration={0.5 + (0.25 * index) + 's'}>
-        <MDBNavItem className={currentPath === menu.path ? 'active' : ''}>
-          <MDBNavLink disabled={currentPath === menu.path} onClick={currentPath === menu.path ? null : this.handleLinkClick} to={menu.path}>{menu.display.toUpperCase()}</MDBNavLink>
+      <MDBAnimation delay="0.25s" key={index} type={this.hamburgerCheckbox && this.hamburgerCheckbox.checked ? '' : ''} duration={0.5 + (0.25 * index) + 's'}>
+        <MDBNavItem className={currentPath === menu.path ? '' : ''}>
+          <MDBNavLink style={{color: 'black'}} disabled={false} onClick={currentPath === menu.path ? null : this.handleLinkClick} to={menu.path}>{menu.display.toUpperCase()}</MDBNavLink>
         </MDBNavItem>
       </MDBAnimation>
     );
 
     return (
-      <MDBNavbar className={!this.state.collapse ? (this.props.showHeader ? 'navbar-up' : 'navbar-down') : ''} color="unique-color-dark" dark expand="md" fixed="top" transparent={!this.state.collapse} scrolling={!this.state.collapse}>
+      <MDBNavbar className={!this.state.collapse ? (this.props.showHeader ? 'navbar-up' : 'navbar-down') : ''} color="white" expand="md" fixed="" transparent={true} scrolling={!this.state.collapse}>
         <MDBContainer fluid>
-          <MDBAnimation type="fadeIn" duration="1s">
+          <MDBAnimation type="" duration="1s">
             <MDBNavbarBrand className={currentPath === '/' ? 'pointer-events-none' : ''} onClick={currentPath === '/' ? null : this.handleLinkClick} href="/">
             <img alt='logo' style={{ width: 200, height: 70 }} src={String(this.logo)} />
             </MDBNavbarBrand>
           </MDBAnimation>
-          <MDBAnimation type="fadeIn" duration="1s">
-            <MDBHamburgerToggler className="d-block d-md-none" color="#ffffff" id="hamburger1" onClick={this.toggleCollapse} />
+          <MDBAnimation type="" duration="1s">
+            <MDBHamburgerToggler className="d-block d-md-none" color="black" id="hamburger1" onClick={this.toggleCollapse} />
           </MDBAnimation>
           <MDBCollapse isOpen={this.state.collapse} navbar>
             <MDBNavbarNav right className="header-menu font-weight-600" >

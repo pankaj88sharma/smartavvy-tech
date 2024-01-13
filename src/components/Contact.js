@@ -97,7 +97,7 @@ class Contact extends React.Component {
           <MDBAnimation type="" duration="2s">
             <MDBView src='https://ik.imagekit.io/excellenceclasses/contact-bg_FuVDrbVU9.jpg' className="h-40vh">
               <MDBMask overlay="black-strong" className="d-flex justify-content-center text-white text-center align-items-end">
-                <MDBAnimation type="zoomIn" duration="1s" delay="0.3s">
+                <MDBAnimation type="" duration="1s" delay="0.3s">
                   <div className="page-bg">
                     <p>Contact Us</p>
                   </div>
@@ -129,7 +129,7 @@ class Contact extends React.Component {
           </MDBModal>
           <MDBRow>
             <MDBCol lg="6" className="mb-4">
-              <MDBAnimation reveal type="slideInLeft" delay="" duration="2s">
+              <MDBAnimation reveal type="" delay="" duration="2s">
                 <form className="p-4 rounded z-depth-1 h-500px" onSubmit={this.handleSubmit} >
                   <div className="grey-text">
                     <MDBInput label="Your name" autoComplete="off" value={this.state.name} onChange={this.handleOnChange} name="name" icon="user" type="text" required />
@@ -147,7 +147,7 @@ class Contact extends React.Component {
               </MDBAnimation>
             </MDBCol>
             <MDBCol lg="6">
-              <MDBAnimation reveal type="slideInLeft" delay="" duration="2s">
+              <MDBAnimation reveal type="" delay="" duration="2s">
                 <div className="text-right">
                   <p style={{fontWeight: 'bold', fontSize: 'large'}}>Venturesoft Technologies Inc. <br/>
                   info@venturesofttechnologies.com <br/>

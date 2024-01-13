@@ -42,7 +42,7 @@ export default class Gallery extends React.Component {
         <MDBContainer fluid className="pl-0 pr-0">
           <MDBRow>
             <MDBCol className="mt-5 pb-2">
-              <MDBAnimation reveal type="fadeIn" duration="2s" delay="">
+              <MDBAnimation reveal type="" duration="2s" delay="">
                 <ImageGallery ref={this.galleryRef} isRTL={false} items={this.props.photosData} onClick={this.imageClick} onScreenChange={this.props.handleScreenChange} showThumbnails={true} useTranslate3D={true} useBrowserFullscreen={false} showPlayButton={false} showNav={false} showBullets={true} autoPlay={true} slideOnThumbnailOver={true} />
               </MDBAnimation>
             </MDBCol>

@@ -16,7 +16,7 @@ export default class Courses extends React.Component {
   render() {
     const items = this.props.coursesData.map((item, index) =>
       <MDBCol key={index} xs="12" sm="12" md="6" lg="6" xl="6">
-        <MDBAnimation reveal type={index % 2 === 0 ? 'zoomIn' : 'slideInLeft'} duration="1.5s" delay=''>
+        <MDBAnimation reveal type={index % 2 === 0 ? '' : ''} duration="1.5s" delay=''>
           <MDBListGroupItem className="border-0">
             <MDBView rounded zoom waves>
               <img src={item.imgSrc} height="500px" alt="" />
@@ -37,7 +37,7 @@ export default class Courses extends React.Component {
           <MDBAnimation type="" duration="">
             <MDBView src='https://ik.imagekit.io/excellenceclasses/subjects-bg_0DqneNjkC2.jpg' className="h-40vh">
               <MDBMask overlay="black-strong" className="d-flex justify-content-center text-white text-center align-items-end">
-                <MDBAnimation type="zoomIn" duration="1s" delay="0.3s">
+                <MDBAnimation type="" duration="1s" delay="0.3s">
                   <div className="page-bg">
                     <p>Services</p>
                   </div>
