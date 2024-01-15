@@ -35,17 +35,21 @@ export default class About extends React.Component {
               </MDBAnimation>
               <MDBAnimation reveal type="" delay="" duration="2s">
                 <p className="font-size-1-1rem">
-                VentureSoft Technologies is a software solutions company providing project development and staff augmentation services to companies in various industries.
+                VentureSoft Technologies is a software solutions company providing project development and staff augmentation services to companies in various industries. We are a leading IT firm dedicated to delivering innovative and tailored solutions to empower businesses in the digital era. With a commitment to excellence, we blend technology expertise with a client-centric approach to provide unparalleled services. At Venturesoft Technologies, we stand at the intersection of technology and innovation, driven by a passion to redefine the digital landscape. Our journey began with a vision to empower businesses through cutting-edge IT solutions, and today, we proudly continue that legacy.
             </p>
               </MDBAnimation>
               <br/>
               <br/>
               <MDBAnimation reveal type="" delay="" duration="2s">
-                <p className="h4-responsive font-weight-500">What We Do</p>
+                <p className="h4-responsive font-weight-500">Our Values</p>
               </MDBAnimation>
               <MDBAnimation reveal type="" delay="" duration="2s">
                 <p className="font-size-1-1rem">
-                VentureSoft Technologies helps organizations operate more efficiently through higher productivity and profitability by providing specialized project implementation.            </p>
+                <b>Excellence</b>: We are committed to delivering excellence in every project, ensuring our clients receive top-notch solutions that exceed expectations. <br/>
+                <b>Innovation</b>: Embracing the spirit of innovation, we stay at the forefront of technology trends, providing our clients with solutions that propel them into the future. <br/>
+                <b>Client-Centric Approach</b>: Our clients are at the heart of what we do. We prioritize understanding their unique needs and crafting solutions that drive their success. <br/>
+                <b>Collaboration</b>: We believe in the power of collaboration – within our team and with our clients. Together, we achieve more.
+                </p>
               </MDBAnimation>
               <br/>
               <br/>
@@ -55,7 +59,11 @@ export default class About extends React.Component {
               </MDBAnimation>
               <MDBAnimation reveal type="" delay="" duration="2s">
                 <p className="font-size-1-1rem">
-                When clients engage third parties it is often a guessing game on what they are getting. With VentureSoft Technologies, what you see is what you get.                </p>
+                <b>Proven Track Record</b>: Explore our portfolio of successful projects that showcase our expertise and commitment to excellence. <br/>
+                <b>Skilled Professionals</b>: Our team consists of experienced professionals who bring a wealth of knowledge and skills to every project. <br/>
+                <b>Client-Focused Approach</b>: We believe in building long-lasting partnerships by putting our clients at the center of our work. <br/>
+                <b>Continuous Innovation</b>: In the ever-evolving world of technology, we stay ahead by embracing innovation and staying updated with the latest trends.
+              </p>
               </MDBAnimation>
             </MDBCol>
           </MDBRow>

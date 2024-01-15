@@ -1,6 +1,6 @@
 .course-btn {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
     pointer-events: none;
-    font-weight: 500;
-    background-color: rgba(0, 0, 0, 0.6) !important;
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 1) !important;
 }

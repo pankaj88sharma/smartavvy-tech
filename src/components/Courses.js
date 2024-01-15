@@ -15,13 +15,13 @@ export default class Courses extends React.Component {
 
   render() {
     const items = this.props.coursesData.map((item, index) =>
-      <MDBCol key={index} xs="12" sm="12" md="6" lg="6" xl="6">
+      <MDBCol key={index} xs="6" sm="6" md="4" lg="4" xl="4">
         <MDBAnimation reveal type={index % 2 === 0 ? '' : ''} duration="1.5s" delay=''>
           <MDBListGroupItem className="border-0">
             <MDBView rounded zoom waves>
-              <img src={item.imgSrc} height="500px" alt="" />
+              <img src={item.imgSrc} height="300" alt="" />
               <MDBMask className="d-flex justify-content-center align-items-end" overlay="black-slight" >
-                <MDBBtn color="" className="w-100 m-0 mb-5 text-white pb-3 pt-3 z-depth-1 course-btn">
+                <MDBBtn color="" style={{}} className="w-100 m-0 mb-0 text-white pb-3 pt-3 z-depth-1 course-btn">
                   {item.name}
                   <MDBIcon icon="angle" className="ml-3" />
                 </MDBBtn>
