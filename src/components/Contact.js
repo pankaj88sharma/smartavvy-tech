@@ -62,7 +62,7 @@ class Contact extends React.Component {
         buttonDisplay: 'Sending...',
         buttonDisabled: true
       })
-      emailjs.send('excellence-gmail', 'excellence-template', this.state, 'user_yhZ19MJX7a6Jd0ci7Xp6Z')
+      emailjs.send('gmail', 'excellence-template', this.state, 'user_yhZ19MJX7a6Jd0ci7Xp6Z')
         .then((result) => {
           this.setState({
             modal1: true,
