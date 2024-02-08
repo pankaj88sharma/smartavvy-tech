@@ -151,7 +151,8 @@ class Contact extends React.Component {
                 <div className="text-right">
                   <p style={{fontWeight: 'bold', fontSize: 'large'}}>Venturesoft Technologies Inc. <br/>
                   info@venturesofttechnologies.com <br/>
-                  12 Lightwood PI, Brampton, ON L6S 5W1 <br/>
+                  16 Rutherford Rd S Unit 203A, <br/>
+                  Brampton, ON L6S 5W1 <br/>
                   www.venturesofttechnologies.com
                   </p>
                 </div>
