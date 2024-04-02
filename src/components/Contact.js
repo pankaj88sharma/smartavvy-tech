@@ -150,7 +150,6 @@ class Contact extends React.Component {
               <MDBAnimation reveal type="" delay="" duration="2s">
                 <div className="text-right">
                   <p style={{fontWeight: 'bold', fontSize: 'large'}}>Venturesoft Technologies Inc. <br/>
-                  info@venturesofttechnologies.com <br/>
                   16 Rutherford Rd S Unit 203A, <br/>
                   Brampton, ON L6S 5W1 <br/>
                   www.venturesofttechnologies.com
