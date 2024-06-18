@@ -152,7 +152,8 @@ class Contact extends React.Component {
                   <p style={{fontWeight: 'bold', fontSize: 'large'}}>Venturesoft Technologies Inc. <br/>
                   16 Rutherford Rd S Unit 203A, <br/>
                   Brampton, ON L6S 5W1 <br/>
-                  www.venturesofttechnologies.com
+                  info@venturesofttechnologies.com <br/>
+                  +1 416-988-2285
                   </p>
                 </div>
               </MDBAnimation>
